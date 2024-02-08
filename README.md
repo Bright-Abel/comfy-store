@@ -1,3 +1,5 @@
+Link to the project https://segun-comfy-store.netlify.app
+
 ### A comfy store
 
 User can view all the available product in store.
