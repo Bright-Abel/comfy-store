@@ -1,4 +1,5 @@
 import { Link, useLoaderData } from 'react-router-dom';
+
 const ProductGrid = () => {
   const { product } = useLoaderData();
   //   console.log(product);

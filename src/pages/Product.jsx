@@ -30,9 +30,9 @@ export const loader =
       ...new URL(request.url).searchParams.entries(),
     ]);
     // console.log(newUrl);
-    // console.log(newUrl);
+    console.log(newUrl);
     const resp = await queryClient.ensureQueryData(allProductQuery(newUrl)); //authFetch(url, { params: newUrl });
-    // console.log(resp);
+    console.log(resp);
 
     const product = resp.data.data;
 
